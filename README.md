@@ -1,6 +1,6 @@
 ## Gmail API in Chrome Extension Demo
- 
-#### Code Examples:
+
+#### Code Examples
 -   [popup/Popup.jsx](https://github.com/anatelli10/gmail-api-chrome-extension/blob/main/src/pages/popup/Popup.jsx)
 -   [background/index.js](https://github.com/anatelli10/gmail-api-chrome-extension/blob/main/src/pages/background/index.js)
 
@@ -10,7 +10,7 @@ If you are using this as a reference to do something similar, check out my other
 
 ![signin](https://user-images.githubusercontent.com/70483566/129666373-ad95851c-aff1-4c65-87e7-e83320b2c3ef.png)
 ![inbox](https://user-images.githubusercontent.com/70483566/129666376-3b24cdb2-c40f-43d5-82b0-c7942d034782.png)
-
+ 
 ### Built With
 
 -   [React](https://reactjs.org/)
