@@ -2,6 +2,9 @@
 
 Simple Google Chrome extension that displays the signed in Chrome user's Gmail inbox. Originally was going to be a completely different extension but ran into technology limitations.
 
+![signin](https://user-images.githubusercontent.com/70483566/129666373-ad95851c-aff1-4c65-87e7-e83320b2c3ef.png)
+![inbox](https://user-images.githubusercontent.com/70483566/129666376-3b24cdb2-c40f-43d5-82b0-c7942d034782.png)
+
 ### Built With
 
 -   [React](https://reactjs.org/)
