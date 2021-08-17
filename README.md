@@ -1,6 +1,6 @@
 ## Gmail API in Chrome Extension Demo
  
-#### Hiring managers look here:
+#### Code Examples:
 -   [popup/Popup.jsx](https://github.com/anatelli10/gmail-api-chrome-extension/blob/main/src/pages/popup/Popup.jsx)
 -   [background/index.js](https://github.com/anatelli10/gmail-api-chrome-extension/blob/main/src/pages/background/index.js)
 
