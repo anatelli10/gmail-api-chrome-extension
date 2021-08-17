@@ -1,0 +1,24 @@
+{
+    "name": "Auto 2FA for Gmail",
+    "background": {
+        "page": "background.html"
+    },
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["contentScript.bundle.js"]
+        }
+    ],
+    "web_accessible_resources": ["logo.png"],
+    "manifest_version": 2,
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+    "permissions": ["identity", "storage"],
+    "oauth2": {
+        "client_id": "509879360214-ls1hvkb2kdg6v1stc0cd4kdhuru5s4ic.apps.googleusercontent.com",
+        "scopes": ["email", "https://www.googleapis.com/auth/gmail.readonly"]
+    },
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAl5twIXJbkOc/KWYGfWO7CkN9ASIiLnsz7gniXLRr+Br/wFJZFsBRpgv5WmU3dlwW+0gdzbnGDbQgVz7Qe1288THXCxGebf+wiB/NgVSmiBSwup6IMr4FmuTWxBxS8+E1MNfag/IMz0+1DFh7wCv68jwM4EfGA+bWVw7fAx9O4jqSZefUl+SEaJIROVYE02XvNSDESnB/1CEdqtFB8X3qQ/TVo+/G6vsgyvKLPw3Ylera7F0aYO4QHXhUUXPmvOzgEPjUYPbxzX8pHwgBYlxERQHy6/Pc8hhGerK+h2WfCZfag6vi+WNurPJ2NNDNFOa9Q6e1LflTmIX+ZKeot3uGewIDAQAB"
+}
