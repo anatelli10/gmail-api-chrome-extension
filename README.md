@@ -1,4 +1,8 @@
 ## Gmail API in Chrome Extension Demo
+ 
+#### Hiring managers look here:
+-   [popup/Popup.jsx](https://github.com/anatelli10/gmail-api-chrome-extension/blob/main/src/pages/popup/Popup.jsx)
+-   [background/index.js](https://github.com/anatelli10/gmail-api-chrome-extension/blob/main/src/pages/background/index.js)
 
 Simple Google Chrome extension that displays the signed in Chrome user's Gmail inbox. Originally was going to be a completely different extension but ran into technology limitations for what I wanted to do. 
 
