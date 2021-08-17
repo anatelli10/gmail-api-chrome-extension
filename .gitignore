@@ -1,6 +1,3 @@
-# credentials
-src/credentials.json
-
 # dependencies
 /node_modules
 
@@ -23,6 +20,3 @@ secrets.*.js
 
 # vscode
 .vscode/
-
-# InboxSDK
-src/pages/content/modules/inboxsdk.js
