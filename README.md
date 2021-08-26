@@ -1,9 +1,5 @@
 ## Gmail API in Chrome Extension Demo
 
-#### Code Examples
--   [popup/Popup.jsx](https://github.com/anatelli10/gmail-api-chrome-extension/blob/main/src/pages/popup/Popup.jsx)
--   [background/index.js](https://github.com/anatelli10/gmail-api-chrome-extension/blob/main/src/pages/background/index.js)
-
 Simple Google Chrome extension that displays the signed in Chrome user's Gmail inbox.
 
 If you are using this as a reference to do something similar, check out my other repo [Packages for Gmail Back-End](https://github.com/anatelli10/packages-for-gmail-back-end/blob/a82fea7978be26dd21e697dfa0bcafa10ddf90e9/accounts/account.service.js#L108) for implementations of message body parsing and retrieving more than 100 messages (important to note that you'll need to change instances of message.data.\<property\> to just message.\<property\>).
